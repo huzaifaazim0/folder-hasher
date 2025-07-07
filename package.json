@@ -1,0 +1,32 @@
+{
+    "name": "folder-hasher",
+    "version": "0.0.1",
+    "description": "Generate a stable hash for the contents of a folder",
+    "main": "lib/hasher.js",
+    "bin": {
+      "folder-hasher": "bin/cli.js"
+    },
+    "keywords": ["hash", "folder", "checksum", "cli", "digest"],
+    "author": "Huzaifa Azim",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Huzaifa Azim",
+            "email": "huzaifaazim0@gmail.com",
+            "url": "https://github.com/huzaifaazim0"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/huzaifaazim0/folder-hasher.git"
+    },
+    "bugs": {
+        "url": "https://github.com/huzaifaazim0/folder-hasher/issues"
+    },
+    "homepage": "https://github.com/huzaifaazim0/folder-hasher#readme",
+    "dependencies": {
+      "globby": "^13.2.2",
+      "minimist": "^1.2.8"
+    }
+  }
+  
